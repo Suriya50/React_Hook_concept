@@ -97,7 +97,7 @@ const State = () => {
 
                 <h2>TASK 4</h2><br />
                 <div >
-                    <h2> REACT HOOK CONCEPT </h2>
+                    <h2> REACT HOOK CONCEPTS </h2>
                 </div>
 
                 <div className="string">
