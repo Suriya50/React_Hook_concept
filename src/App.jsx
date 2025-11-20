@@ -1,6 +1,7 @@
 
 import './App.css'
-import State from './component/state';
+import State from './components/state';
+
 const App=()=>{
 
 return(
