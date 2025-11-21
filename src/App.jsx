@@ -1,6 +1,11 @@
 
 import './App.css'
-import State from './components/state';
+import States from './components/States';
+
+
+
+
+
 
 const App=()=>{
 
@@ -8,9 +13,13 @@ return(
 
 
   <>
- <div>
-  <State/>
- </div>
+ 
+  <div>
+
+
+    <States/>
+  </div>
+ 
   
   
   

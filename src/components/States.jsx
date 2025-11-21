@@ -1,6 +1,8 @@
 
+import { useState } from "react";
 
-const State = () => {
+const States = () => {
+
 
 
     const [string1, setString1] = useState("TN 01")
@@ -84,10 +86,6 @@ const State = () => {
     }
 
 
-
-
-
-
     return (
 
         <>
@@ -159,21 +157,21 @@ const State = () => {
                 </div>
 
 
-<div className="null">
-                <div style={{ marginTop: "15px" }}>
+                <div className="null">
+                    <div style={{ marginTop: "15px" }}>
 
-                    <h2>null</h2>
+                        <h2>null</h2>
+                    </div>
+
+
+                    <div>
+                        <h2>Value: {String(null16)}</h2>
+
+                    </div>
+
+                    <button style={{ width: "80px", height: "25px", alignItems: "center", marginTop: "10px", backgroundColor: "blue", color: "white", borderRadius: "8px" }} onClick={statenull}>click me</button>
+
                 </div>
-
-
-                <div>
-                    <h2>Value: {String(null16)}</h2>
-
-                </div>
-
-                <button style={{ width: "80px", height: "25px", alignItems: "center", marginTop: "10px", backgroundColor: "blue", color: "white", borderRadius: "8px" }} onClick={statenull}>click me</button>
-
-</div>
 
             </div>
 
@@ -187,7 +185,5 @@ const State = () => {
 
 }
 
-export default State;
-
-
+export default States;
 
